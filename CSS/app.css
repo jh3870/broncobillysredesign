@@ -190,4 +190,25 @@ background-color: green;
   padding:30px 250px;
 }
 
+/*--Menu Section-------------------------------------------------*/
+.prices {
+  text-align: center;
+}
+/*This is so I could align the 'prices may very' in the center of the Menu Page*/
+.menutables {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 
