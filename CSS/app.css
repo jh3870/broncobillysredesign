@@ -1,48 +1,53 @@
-/* this is my stylesheet for my homepage */
-
-/* fonts info for playbillregular */
-@font-face {
-    font-family: 'playbillregular';
-    src: url('playbill-webfont.woff2') format('woff2'),
-         url('playbill-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* font directory */
-h1, nav {font-family: 'playbillregular';}
-
-
-/* table of contents styles */
-nav, h1 {color:red !important; background-color: black;
-  text-align: center;}
-
-nav {color: black;
-padding: 10px;
-margin: auto;
-}
-
-
-a:hover {background-color: white;}
-
+/*-------stylesheet for HOME PAGE------------------------*/
 
 /* header styles */
+h1 {color:red;
+  background-color: black;
+  text-align: center;
+  background-size: cover;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'playbillregular';
+}
 
+/*navigation styles*/
+nav {
+background-color: maroon;
+margin: auto;
+border: 10px solid black;
+font-size: 20px;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+background-size: cover;
+font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+/* navigation hover*/
+a:hover {background-color: maroon;
+color: white;}
 
 /* main body styles */
 body {font-family: 'Frank Ruhl Libre', sans-serif;margin:0;
-  background: black url(../images/wood.jpeg) no-repeat fixed center;
+  background: black url(../images/blur.jpg) no-repeat fixed center;
 }
-
 
 /*greeting styles*/
-h3, footer {font-family: 'Frank Ruhl Libre', sans-serif;
-color: darkgreen;
+h3 {font-family: 'playbillregular';
+font-size: 50px;
+letter-spacing: 3px;
+color: green;
 }
 
-h1, h6 {text-align: center;}
+/*footer styles*/
+h6 {font-family: 'Frank Ruhl Libre', sans-serif;
+color: darkgreen;
+text-align: center;
+}
 
-/*IMAGE SLIDER STYLES*/
+
+
+/*---------------IMAGE SLIDER STYLES(Home page)---------------*/
 * {box-sizing:border-box}
 
 .mySlides {display:none}
@@ -141,7 +146,8 @@ h1, h6 {text-align: center;}
 }
 
 
-/*IMAGE SLIDER END--*/
+/*----------------IMAGE SLIDER END-------------------------------*/
+/*-------HOME PAGE END-----------------------------------------*/
 
 
 /*--About Section-------------------------------------------------*/
