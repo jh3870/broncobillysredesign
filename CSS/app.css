@@ -143,23 +143,51 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 /*IMAGE SLIDER END--*/
 
+
 /*--About Section-------------------------------------------------*/
-#about{
+#aboutnav{
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
   background-color: maroon;
   font-size: 20px;
 }
-#about a:hover{
+#aboutnav a:hover{
   background-color: maroon;
 }
-#aboutinfo{
+
+#aboutsource{
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
+  border: 5px solid gray;
+  color: white;
+  font-size: 20px;
 }
+#aboutintro{
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  border: 5px solid gray;
+  color: white;
+  font-size: 20px;
+}
+#navbg{
+  background-color: green;
+  background-size: cover;
+}
+#bodybg{
+background-color: green;
+  background-size: cover;
+  marign:25px;
+  padding:300px;
 
-
+}
+#aboutfoot{
+  text-align: center;
+  color: white;
+  margin:50px;
+  padding:30px 250px;
+}
 
 
