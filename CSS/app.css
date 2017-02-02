@@ -25,7 +25,7 @@ font-family: 'Frank Ruhl Libre', sans-serif;
 
 /* navigation hover*/
 a:hover {background-color: maroon;
-color: white;}
+color: black;}
 
 /* main body styles */
 body {font-family: 'Frank Ruhl Libre', sans-serif;margin:0;
@@ -45,6 +45,9 @@ color: darkgreen;
 text-align: center;
 }
 
+
+.button {background-color: rgba(0,0,0,0.8);
+}
 
 
 /*---------------IMAGE SLIDER STYLES(Home page)---------------*/
