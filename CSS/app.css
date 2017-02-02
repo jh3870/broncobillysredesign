@@ -149,41 +149,31 @@ text-align: center;
 /*----------------IMAGE SLIDER END-------------------------------*/
 /*-------HOME PAGE END-----------------------------------------*/
 
-
-/*--About Section-------------------------------------------------*/
-#aboutnav{
-  font-family: 'Frank Ruhl Libre', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  background-color: maroon;
-  font-size: 20px;
-}
-#aboutnav a:hover{
-  background-color: maroon;
-}
-
 #aboutsource{
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
-  border: 5px solid gray;
-  color: white;
+  border: 2px solid gray;
+  color: black;
   font-size: 20px;
+  text-align: center;
+
 }
 #aboutintro{
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
-  border: 5px solid gray;
-  color: white;
+  border: 2px solid gray;
+  color: black;
   font-size: 20px;
+  text-align: center;
 }
 #navbg{
-  background-color: green;
+
   background-size: cover;
 }
 #bodybg{
-background-color: green;
+
   background-size: cover;
   marign:25px;
   padding:300px;
@@ -195,6 +185,8 @@ background-color: green;
   margin:50px;
   padding:30px 250px;
 }
+
+
 
 /*--Menu Section-------------------------------------------------*/
 .prices {
@@ -217,4 +209,18 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+/* Locations apge */ 
+/* Wood frame */
+.woodframe{
+  border: solid 30px;
+  border-image: url(../images/frame.jpg) 200 stretch;
+  }
 
+
+@media only screen and (max-width: 640px) {
+  .map{ 
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 35px;
+  }
