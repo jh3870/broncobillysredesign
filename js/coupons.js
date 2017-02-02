@@ -2,7 +2,7 @@
 var title;
 var message;
 title = "Specials for our friends!";
-message = '<a href=\"sale.hml\">Coupons</a>';
+message = '<a href=\"http://www.broncobillysniles.biz/coupons/\">Coupons</a>';
 
 var elTitle = document.getElementById('title');
 elTitle.innerHTML = title;
