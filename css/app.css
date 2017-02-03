@@ -41,11 +41,14 @@ color: green;
 }
 
 /*footer styles*/
-h6, ul {font-family: 'Frank Ruhl Libre', sans-serif;
+footer {font-family: 'Frank Ruhl Libre', sans-serif;
 color: darkgreen;
 text-align: center;
 list-style-type: none;
-}
+position:absolute;
+bottom:0;
+width:100%;
+height:60px; 
 
 
 /*links styles*/
