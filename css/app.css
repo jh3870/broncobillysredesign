@@ -156,22 +156,30 @@ text-align: center;
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
+  border: 2px solid white;
   color: black;
   font-size: 20px;
   text-align: center;
-   border:2px solid white;
 
 }
 #aboutintro{
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: normal;
   font-style: normal;
+  border: 2px solid white;
   color: black;
   font-size: 20px;
   text-align: center;
-  border:2px solid white;
 }
+#navbg{
 
+  background-size: cover;
+}
+#bodybg{
+
+  background-size: cover;
+  marign:25px;
+  padding:300px;
 
 }
 #aboutfoot{
