@@ -30,6 +30,7 @@ color: black;}
 /* main body styles */
 body {font-family: 'Frank Ruhl Libre', sans-serif;margin:0;
   background: black url(../images/wood.jpg) no-repeat fixed center;
+  font-weight: bold;
 }
 
 /*greeting styles*/
@@ -40,14 +41,23 @@ color: green;
 }
 
 /*footer styles*/
-h6 {font-family: 'Frank Ruhl Libre', sans-serif;
+h6, ul {font-family: 'Frank Ruhl Libre', sans-serif;
 color: darkgreen;
 text-align: center;
+list-style-type: none;
 }
 
 
-.button {background-color: rgba(0,0,0,0.8);
+/*links styles*/
+a {color: white;
+ text-decoration: none;
 }
+
+/*button styles*/
+.button:hover {background-color: maroon;
+}
+.button {background-color: rgba(0,0,0,0.8);}
+
 
 
 /*---------------IMAGE SLIDER STYLES(Home page)---------------*/
@@ -86,7 +96,7 @@ text-align: center;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-  color: #717171;
+  color: maroon;
 }
 
 /* Caption text */
