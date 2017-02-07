@@ -230,6 +230,7 @@ tr:nth-child(even) {
   border: solid 30px;
   border-image: url(../images/frame.jpg) 200 stretch;
   display: block;
+  background-color: rgba(213, 188, 156, 0.8);
   }
 
 
@@ -241,15 +242,4 @@ tr:nth-child(even) {
     right: 35px;
   }
   
-  /* Adding background color */
-  
-  .woodframebgcolor{
-    background-color: rgba(213, 188, 156, 0.8);
-    background-size: 100%;
-  }
-  @media only screen and (max-width: 1000px) {
- .woodframebgcolor{
-    background-color: rgba(213, 188, 156, 0.8);
-    background-size: 100%;
-    }
-  }
+ 
