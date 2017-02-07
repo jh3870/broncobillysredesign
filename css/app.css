@@ -244,5 +244,5 @@ tr:nth-child(even) {
   
   .woodframebgcolor{
     background-color: rgba(213, 188, 156, 0.8);
-    display: inline-block
+    display: inline-block;
   }
