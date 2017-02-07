@@ -229,6 +229,7 @@ tr:nth-child(even) {
 .woodframe{
   border: solid 30px;
   border-image: url(../images/frame.jpg) 200 stretch;
+  display: inline-block
   }
 
 
