@@ -1,0 +1,345 @@
+/* ---------------------- CONTROL EVERYTHING ---------------------- */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing:border-box;
+  /*border: 1px solid blue;*/
+}
+
+p {
+  /*color:  #b30000;*/
+  color: white;
+  font-family: helvetica;
+  font-size: 17px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+/* ----------- h1 ----------- */
+h1 {
+  color:red;
+  background-color: black;
+  text-align: center;
+  background-size: cover;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'playbillregular';
+  font-size: 72px;
+  text-shadow: 1px 1px 1px red;
+  animation-name: ani1;
+  animation-duration: 1s;
+}
+
+/* ---------------------- NAV ---------------------- */
+nav {
+  background-color: maroon;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  background-size: cover;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  animation-name: ani1;
+  animation-duration: 1s;
+}
+
+/* ----------- NAV HOVER ----------- */
+a:hover {
+  background-color: maroon;
+  color: black;
+}
+
+/* ---------------------- BODY ---------------------- */
+body {
+  font-family: 'Frank Ruhl Libre', sans-serif;margin:0;
+  background: black url(../images/frame.jpg) no-repeat fixed center;
+  font-weight: bold;
+  height: 100%;
+}
+
+/* ---------------------- h3 greeting styles ---------------------- */
+h3 {
+  font-family: 'playbillregular';
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: #009900;
+  text-shadow: 1px 1px 4px #000000;
+  animation-name: ani1;
+  animation-duration: 2s;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: ;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#fter {
+  top: 110px;
+}
+
+/* ---------------------- FOOTER ---------------------- */
+footer {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  text-align: center;
+  list-style-type: none;
+  bottom:0px;
+  right: 0;
+  left: 0;
+  width:100%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 0px;
+  clear: both;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+/* ---------------------- CONTROL ALL 'a' LINKS ---------------------- */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ----------- button hover styles ----------- */
+.button:hover {
+  background-color: maroon;
+}
+
+.button {
+  background-color: rgba(0,0,0,0.8);
+  font-size: 20px;
+  padding: 5px;
+}
+
+#mainslide {
+  padding: 20px;
+}
+
+/* ----------- IMAGE SLIDER ----------- */
+
+/* -------------------------------------------- HOME PAGE BEGIN -------------------------------------------- */
+/* ------ CLASS 'mySlides' ------ */
+.mySlides {
+  display:none;
+}
+
+/* ------ CLASS 'slideshow-container' ------ */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* ------ CLASS 'prev' AND 'next' buttons ------ */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+  transition: .75s ease-in;
+  border-radius: 0 4px 4px 0;
+  animation-name: ani1;
+  animation-duration: 2s;
+}
+
+/* ------ CLASS 'next' ------ */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* ------ CLASS 'prev:hover' AND 'next:hover' ;on hover, add a black background color with a little bit see-through ------ */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: maroon;
+  transition: .3s ease-out;
+}
+
+/* ------ CLASS 'text' Caption text ------ */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 4px 6px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* ------ CLASS 'dot' dots/bullets/indicators ------
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  padding: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}*/
+
+#coupons {
+  padding: 0px;
+  animation-name: ani1;
+  animation-duration: 0.5s;
+}
+
+/* ------ CLASS 'active' AND 'dot:hover' ------ */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* ------ CLASS 'fade' fading animation ------ */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/* ----------- webkit ANIMATION 'fade' ----------- */
+@-webkit-keyframes fade {
+  from {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ----------- ANIMATION 'fade' ----------- */
+@keyframes fade {
+  from {
+    opacity: .3;
+  }
+  to {opacity: 1;
+  }
+}
+
+/* ----------- On smaller screens, decrease text size ----------- */
+@media only screen and (max-width: 300px;) {
+  .prev, .next,.text {font-size: 11px;}
+}
+/* -------------------------------------------- HOME PAGE END -------------------------------------------- */
+
+
+
+/* -------------------------------------------- ABOUT PAGE BEGIN -------------------------------------------- */
+/* ----------- ID 'aboutsource' ----------- */
+#aboutsource {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* ----------- ID 'aboutintro' ----------- */
+#aboutintro {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* ----------- ID 'bodybg' ----------- */
+#bodybg {
+  background-size: cover;
+  margin:25px;
+  padding:300px;
+}
+
+/* ----------- ID 'aboutfoot' ----------- */
+#aboutfoot {
+  text-align: center;
+  color: white;
+}
+/* -------------------------------------------- ABOUT PAGE END -------------------------------------------- */
+
+
+
+/* -------------------------------------------- MENU PAGE BEGIN -------------------------------------------- */
+/* ------ CLASS 'prices' ------ */
+.prices {
+  text-align: center;
+}
+
+/* ------ CLASS 'menutables' ------ */
+.menutables {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* ------ CONTROL ALL td's AND th's ------ */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* ------ CONTROL CLASS tr:nth-child ------ */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* -------------------------------------------- MENU PAGE END -------------------------------------------- */
+
+
+
+/* -------------------------------------------- LOCATION PAGE BEGIN -------------------------------------------- */
+/* ------ CLASS 'woodframe' ------ */
+/*.woodframe {
+  /*border: solid 30px;*/
+  /*border-image: url(../images/frame.jpg) 200 stretch;
+  display: block;
+  /background-color: rgba(213, 188, 156, 0.8);*/
+}
+
+/* ------ CONTROL CLASS maps ------ */
+@media only screen and (max-width: 640px) {
+  .map {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 35px;
+  }
+  /* -------------------------------------------- LOCATION PAGE END -------------------------------------------- */
+
+  @keyframes ani1 {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    75% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
